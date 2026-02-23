@@ -277,7 +277,7 @@
       },
       "description": "Result of the request to list NetworkGroup. It contains a list of groups and a URL link to get the next set of results."
     },
-    "NetworkGroupProperties": {
+    "PutCommitProperties": {
       "type": "object",
       "properties": {
         "description": {
@@ -323,7 +323,6 @@
         },
         "commitTag": {
           "type": "string",
-          "readOnly": true,
           "description": "Unique identifier for this commit."
         }
       },
